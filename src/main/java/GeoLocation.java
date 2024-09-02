@@ -126,7 +126,7 @@ public class GeoLocation {
      */
     public void writeFile(ArrayList<String> arrayList) {
         arrayList.forEach(line -> {
-            try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/locationResult/locationResultData.txt", true))) {
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("results/locationResultData.txt", true))) {
                 writer.write(line);
                 writer.newLine();
             } catch (IOException e) {

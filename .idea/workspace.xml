@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedb6c84-929f-4d5c-bc62-bc86147ae774" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeoLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/locationResult/locationResultData.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "slava-varich_sflyinc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;slava-varich_sflyinc&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/SlavaVarych/fetchSDETViacheslaVarych.git",
-    "accountId": "42c07bf2-20f0-4b3e-86e4-9457021c0fea"
+    "url": "https://github.com/SlavaVarych/fetchSDETViacheslavVarych",
+    "accountId": "e2a1a70c-7981-4a89-81de-ec9701e875fc"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lITDXerhqtRF34x9fx1zEUE4SN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +55,9 @@
     "TestNG.FindGeoTest.runTest1.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -219,6 +224,9 @@
       <updated>1724866474216</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ public class GeoLocationRun {
 
         ScannerInput scannerInput = new ScannerInput();
         GeoLocation geoLocation = new GeoLocation();
-        geoLocation.clearFile("src/main/locationResult/locationResultData.txt");
+        geoLocation.clearFile("results/locationResultData.txt");
         geoLocation.getLocationData(scannerInput.userInputScanner());
     }
 }
