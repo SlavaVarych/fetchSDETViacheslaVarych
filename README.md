@@ -5,7 +5,7 @@
 - Git Clone the project:
 ```sh
 $ cd <Path to git folder>
-$ git clone https://github.com/SlavaVarych/fetchSDETViacheslaVarych
+$ git clone https://github.com/SlavaVarych/fetchSDETViacheslavVarych
 ```
 - You should now see the folders
 
