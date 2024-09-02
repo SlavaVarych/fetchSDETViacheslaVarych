@@ -1,0 +1,12 @@
+Latitude is: 41.8755616
+Longitude is: -87.6244212
+City name is: Chicago
+State is: Illinois
+Country is: US
+
+Latitude is:2 41.9699
+Longitude is: -87.7603
+City name is: Chicago
+Country is: US
+Zip code is: 60630
+
