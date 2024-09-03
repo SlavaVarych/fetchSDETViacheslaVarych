@@ -32,7 +32,7 @@ $ mvn exec:java
 ```sh
 
 # the actual command to run Tests:
-$ mvn test
+$ mvn clean test
 ```
 
 
@@ -41,5 +41,4 @@ $ mvn test
 - The results of the requested data will be written results/locationResultData.txt file
 
 ## After the Tests are completed
-- The allure report will be generated
-- The results of the requested data will be written results/locationResultData.txt file
+- The Allure report will be generated and launched automatically

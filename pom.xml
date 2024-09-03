@@ -6,15 +6,12 @@
     <artifactId>fetchSDETViacheslavVarych</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
     <name>fetchSDETViacheslaVarych</name>
     <url>http://maven.apache.org</url>
-
     <properties>
         <aspectj.version>1.9.22.1</aspectj.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -22,7 +19,6 @@
             <version>7.10.2</version>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -33,49 +29,38 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
-
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.5.0</version>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.16.1</version>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>org.jline</groupId>
             <artifactId>jline</artifactId>
-            <version>3.25.1</version> <!-- Check for the latest version -->
+            <version>3.25.1</version>
         </dependency>
-
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.29.0</version>
         </dependency>
-
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-rest-assured</artifactId>
             <version>2.29.0</version>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>org.aspectj</groupId>-->
-<!--            <artifactId>aspectjweaver</artifactId>-->
-<!--            <version>1.9.22.1</version>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
-
-
-
-
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.29.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -87,8 +72,6 @@
                     <mainClass>GeoLocationRun</mainClass>
                 </configuration>
             </plugin>
-
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -96,17 +79,11 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <useSystemClassLoader>false</useSystemClassLoader>
-<!--                    <forkCount>7</forkCount>-->
-<!--                    <reuseForks>true</reuseForks>-->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <parallel>classes</parallel>
-                                        <threadCount>${Thread_Count}</threadCount>
-<!--                    <threadCount>10</threadCount>-->
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFile>src/main/resources/${suiteName}.xml</suiteXmlFile>-->
-<!--                    </suiteXmlFiles>-->
+                    <threadCount>${Thread_Count}</threadCount>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -117,12 +94,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
-
         </plugins>
-
-
-
     </build>
-
 </project>

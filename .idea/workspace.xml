@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedb6c84-929f-4d5c-bc62-bc86147ae774" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1cb0d8a4-b0b2-46e5-81b0-f979fe96190f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3e30ee68-1c57-47d6-b6b6-f167322c297f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6db39205-6a09-4e03-aa9d-a496039933d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c439fc29-3269-416c-b40f-2917e0157c1f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c6b3ebf4-b6ec-44fb-a038-497ce0b8ad97-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/eb3d80b3-e1e8-475e-a097-4f5b8c0d0b6f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d44c0f3-dd91-4a05-9bd7-92da2aaf8918-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/46c84887-4206-40c3-bffa-e1420ead26c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/47121563-9f7a-478d-8012-d643d72b6951-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/58c39556-3b12-47c4-8dc5-b149cead957b-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/61098961-f9ec-4d01-ab27-547d5ca93dbe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a375278c-5746-47db-b3f6-c34642328ab8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9d4cc7b-afd3-4434-ad05-aa31e240d552-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bbcd6f0a-ba86-4141-b8e8-10205562bce7-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c676723e-c529-474e-bbf2-ca817745c350-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e31b1e3d-e922-45ec-936b-c95fe9715928-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
