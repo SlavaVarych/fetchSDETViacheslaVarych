@@ -1,3 +1,5 @@
+package apiCalls;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -16,7 +18,7 @@ import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.not;
 
-public class GeoLocation {
+public class GeoLocationApiCalls {
 
     private static final String HOST = "http://api.openweathermap.org/";
 
@@ -27,15 +29,15 @@ public class GeoLocation {
     /**
      * This method handles entered data
      */
-    public void getLocationData(String geoData) {
+    public void requestProcessing(String geoData) {
 
         String[] geoDataArr = geoData.split("\" \"");
         for (String data : geoDataArr) {
             boolean containsDigit = data.matches(".*\\d.*");
             if (containsDigit) {
-                getLocationViaZipCode(data);
+                writeResultsDataToFile(getLocationViaZipCode(data));
             } else {
-                getCityLocation(data);
+                writeResultsDataToFile(getCityLocation(data));
             }
         }
     }
@@ -43,7 +45,7 @@ public class GeoLocation {
     /**
      * This method gets data by City and State code
      */
-    public void getCityLocation(String geoData) {
+    public ArrayList<String> getCityLocation(String geoData) {
         String[] geoDataArr = geoData.split(", ");
 
         RestAssured.baseURI = HOST;
@@ -82,16 +84,14 @@ public class GeoLocation {
         dataResult.add("Country is: " + jsonObject.get("country"));
         dataResult.add("");
 
-        writeFile(dataResult);
-
         dataResult.forEach(System.out::println);
+        return dataResult;
     }
 
     /**
      * This method gets location data via Zip code
      */
-    public void getLocationViaZipCode(String geoData) {
-
+    public ArrayList<String> getLocationViaZipCode(String geoData) {
         String request = format(GET_LOCATION_VIA_ZIP_URL, geoData);
 
         Response response = given()
@@ -109,22 +109,21 @@ public class GeoLocation {
         response.getBody().jsonPath().get("lat");
 
         ArrayList<String> dataResult = new ArrayList<>();
-        dataResult.add("Latitude is:2 " + response.jsonPath().get("lat").toString());
+        dataResult.add("Latitude is: " + response.jsonPath().get("lat").toString());
         dataResult.add("Longitude is: " + response.jsonPath().get("lon"));
         dataResult.add("City name is: " + response.jsonPath().get("name"));
         dataResult.add("Country is: " + response.jsonPath().get("country"));
         dataResult.add("Zip code is: " + response.jsonPath().get("zip"));
         dataResult.add("");
 
-        writeFile(dataResult);
-
         dataResult.forEach(System.out::println);
+        return dataResult;
     }
 
     /**
-     * This method write data to the file
+     * This method write results data to the file
      */
-    public void writeFile(ArrayList<String> arrayList) {
+    public void writeResultsDataToFile(ArrayList<String> arrayList) {
         arrayList.forEach(line -> {
             try (BufferedWriter writer = new BufferedWriter(new FileWriter("results/locationResultData.txt", true))) {
                 writer.write(line);

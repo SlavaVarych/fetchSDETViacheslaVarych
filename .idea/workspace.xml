@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedb6c84-929f-4d5c-bc62-bc86147ae774" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeoLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetLocationViaCityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetLocationViaZipCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/ApiServicesTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/locationResultData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/locationResult/locationResultData.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +55,16 @@
   "keyToString": {
     "Application.GeoLoc.executor": "Run",
     "Application.GeoLocRun.executor": "Debug",
+    "Application.VerifyFileContentUtility.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.FindGeoTest.runTest1.executor": "Debug",
+    "TestNG.FirstTest.executor": "Run",
+    "TestNG.FirstTest.firstTestRun.executor": "Run",
+    "TestNG.GetLocationViaCityTest.executor": "Debug",
+    "TestNG.GetLocationViaZipCodeTest.executor": "Debug",
+    "TestNG.VerifyFileContentUtility.verifyLinesInFile.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -64,17 +76,21 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GeoLocRun">
-    <configuration name="GeoLoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GeoLoc" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetLocationViaCityTest">
+    <configuration name="VerifyFileContentUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.VerifyFileContentUtility" />
       <module name="fetchSDETViacheslavVarych" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeoLocRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GeoLocRun" />
-      <module name="fetchSDETViacheslavVarych" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +130,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindGeoTest.runTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.firstTestRun" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fetchSDETViacheslavVarych" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindGeoTest" />
-      <option name="METHOD_NAME" value="runTest1" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="firstTestRun" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLocationViaCityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fetchSDETViacheslavVarych" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetLocationViaCityTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLocationViaZipCodeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fetchSDETViacheslavVarych" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetLocationViaZipCodeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyFileContentUtility.verifyLinesInFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fetchSDETViacheslavVarych" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.VerifyFileContentUtility" />
+      <option name="METHOD_NAME" value="verifyLinesInFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -208,9 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeoLocRun" />
-        <item itemvalue="Application.GeoLoc" />
-        <item itemvalue="TestNG.FindGeoTest.runTest1" />
+        <item itemvalue="TestNG.GetLocationViaCityTest" />
+        <item itemvalue="TestNG.GetLocationViaZipCodeTest" />
+        <item itemvalue="Application.VerifyFileContentUtility" />
+        <item itemvalue="TestNG.VerifyFileContentUtility.verifyLinesInFile" />
+        <item itemvalue="TestNG.FirstTest.firstTestRun" />
       </list>
     </recent_temporary>
   </component>
@@ -232,18 +290,52 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/GeoLocation.java</url>
-          <line>133</line>
-          <properties class="GeoLocation">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/VerifyFileContentUtility.java</url>
+          <line>11</line>
+          <properties class="utils.VerifyFileContentUtility">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java</url>
+          <line>91</line>
+          <properties class="apiCalls.GeoLocationApiCalls" method="getLocationViaZipCode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GeoLocation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java</url>
           <line>54</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GetLocationViaCityTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/VerifyFileContentUtility.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/apiTestClasses/ApiServicesTestClass.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/apiTestClasses/ApiServicesTestClass.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

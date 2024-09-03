@@ -4,3 +4,9 @@ City name is: New York County
 State is: New York
 Country is: US
 
+Latitude is: 41.9699
+Longitude is: -87.7603
+City name is: Chicago
+Country is: US
+Zip code is: 60630
+

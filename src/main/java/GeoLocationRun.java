@@ -1,3 +1,4 @@
+import apiCalls.GeoLocationApiCalls;
 import utils.ScannerInput;
 
 /**
@@ -8,8 +9,8 @@ public class GeoLocationRun {
     public static void main(String[] args) {
 
         ScannerInput scannerInput = new ScannerInput();
-        GeoLocation geoLocation = new GeoLocation();
+        GeoLocationApiCalls geoLocation = new GeoLocationApiCalls();
         geoLocation.clearFile("results/locationResultData.txt");
-        geoLocation.getLocationData(scannerInput.userInputScanner());
+        geoLocation.requestProcessing(scannerInput.userInputScanner());
     }
 }
