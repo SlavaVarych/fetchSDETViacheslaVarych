@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedb6c84-929f-4d5c-bc62-bc86147ae774" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetLocationViaCityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetLocationViaZipCodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/ApiServicesTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/locationResultData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GeoLocationRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1cb0d8a4-b0b2-46e5-81b0-f979fe96190f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3e30ee68-1c57-47d6-b6b6-f167322c297f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6db39205-6a09-4e03-aa9d-a496039933d0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c439fc29-3269-416c-b40f-2917e0157c1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c6b3ebf4-b6ec-44fb-a038-497ce0b8ad97-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eb3d80b3-e1e8-475e-a097-4f5b8c0d0b6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiCalls/GeoLocationApiCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTestClasses/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

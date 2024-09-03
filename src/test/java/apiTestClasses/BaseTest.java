@@ -1,6 +1,8 @@
 package apiTestClasses;
 
 import apiCalls.GeoLocationApiCalls;
+import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -18,6 +20,11 @@ public class BaseTest {
     public void clearResultFile() {
         GeoLocationApiCalls geoLocation = new GeoLocationApiCalls();
         geoLocation.clearFile("results/locationResultData.txt");
+    }
+
+    @BeforeTest(alwaysRun = true, dependsOnMethods = "clearResultFile")
+    public void apiSetup() {
+        RestAssured.filters(new AllureRestAssured());
     }
 
     @AfterSuite()

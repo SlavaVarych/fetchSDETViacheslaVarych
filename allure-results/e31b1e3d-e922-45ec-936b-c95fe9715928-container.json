@@ -1,0 +1,1 @@
+{"uuid":"e31b1e3d-e922-45ec-936b-c95fe9715928","name":"Surefire suite","children":["a375278c-5746-47db-b3f6-c34642328ab8"],"befores":[],"afters":[{"name":"generateAllureReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1725327194253,"stop":1725327194258}],"start":1725327187089,"stop":1725327194258}

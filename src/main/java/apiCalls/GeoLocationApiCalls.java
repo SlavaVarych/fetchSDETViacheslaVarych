@@ -8,8 +8,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import utils.NoDataException;
 
-
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
@@ -93,6 +94,8 @@ public class GeoLocationApiCalls {
      */
     public ArrayList<String> getLocationViaZipCode(String geoData) {
         String request = format(GET_LOCATION_VIA_ZIP_URL, geoData);
+
+        RestAssured.baseURI = HOST;
 
         Response response = given()
                 .get(request)
