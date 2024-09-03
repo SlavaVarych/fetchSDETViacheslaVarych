@@ -22,6 +22,10 @@ $ git clone https://github.com/SlavaVarych/fetchSDETViacheslavVarych
 $ mvn compile
 ```
 
+## Input Data
+### Enter request in the next format:
+### "Chicago, IL" "New York, NY" "60630"
+
 ### Running program using maven
 ```sh
 
